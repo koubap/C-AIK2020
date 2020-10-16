@@ -43,12 +43,15 @@ namespace vlajky
 			ConsoleKeyInfo cki = Console.ReadKey(true);
 			switch (cki.Key) {
 				case ConsoleKey.D1:	
+				case ConsoleKey.NumPad1:	
 					czechFlag();				
 					break;
 				case ConsoleKey.D2:
+				case ConsoleKey.NumPad2:	
 					germanFlag();
 					break;
 				case ConsoleKey.D3:	
+				case ConsoleKey.NumPad3:	
 					usFlag();	
 					break;
 				default:
